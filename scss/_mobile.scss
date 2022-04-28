@@ -1,13 +1,19 @@
 //widescreen
 @include meadiaXl {
-    .projects {
+    .a_pictures {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .l_pictures {
         grid-template-columns: repeat(4, 1fr);
     }
 }
 
 //desktop & laptop
 @include meadiaLg {
-    .projects {
+    .a_pictures {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .l_pictures {
         grid-template-columns: repeat(3, 1fr);
     }
 }
@@ -64,7 +70,10 @@
         grid-template-columns: 1fr;
     }
 
-    .projects {
+    .a_pictures {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .l_pictures {
         grid-template-columns: repeat(2, 1fr);
     }
 }
@@ -75,7 +84,10 @@
         margin-top: 10vh;
     }
 
-    .projects {
+    .a_pictures {
+        grid-template-columns: 1fr;
+    }
+    .l_pictures {
         grid-template-columns: 1fr;
     }
 }
