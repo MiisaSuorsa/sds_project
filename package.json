@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Course project for Software development:Front end course",
   "main": "index.js",
+  "homepage": "https://miisasuorsa.github.io/sds_project",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
     "deploy": "gh-pages -d dist"
